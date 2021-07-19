@@ -19,11 +19,11 @@ function createFormWithInput() {
   form.addEventListener("submit", (event) => {
     event.preventDefault();
     const {
-      title: { value: titleValue },
+      title: { value: title },
       image: { value: image },
       price: { value: price },
     } = event.target.elements;
-    postProductToServer(titleValue, image, price);
+    postProductToServer(title, image, price);
   });
   return form;
 }
