@@ -47,7 +47,7 @@ function postProductToServer(title, image, price) {
     .then((data) => {
       console.log(data);
       setTimeout(() => {
-        window.location.href = "index.html";
+        window.location.href = "/index.html";
       }, 1000);
     });
 }
