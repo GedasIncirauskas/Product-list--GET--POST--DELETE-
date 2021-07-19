@@ -1,0 +1,59 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 1rem;
+  padding: 0.5rem 0.8rem;
+}
+
+h2,
+h3,
+a {
+  clear: both;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+img {
+  margin-top: 1rem;
+  width: 100%;
+  max-height: 40vh;
+  display: block;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.grid-item {
+  width: calc(25% - 1rem);
+  border: 1px solid #ccc;
+  margin: 1rem 0.5rem;
+}
+
+.product-name {
+  width: 100%;
+}
+
+.price {
+  width: 100%;
+  color: rgb(255, 4, 4);
+}
+
+.delete-product {
+  height: 1.5rem;
+  line-height: 1rem;
+  width: 50%;
+  color: black;
+  font-size: 1rem;
+  margin: 1rem auto;
+}
+
+.btn-style {
+  margin: 1rem;
+}
